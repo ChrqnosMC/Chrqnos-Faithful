@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "skybox:overworld/decor_above_clouds/sky_mask_high.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 197,
+		"fade": {"alwaysOn": true},
+		"rotation": {
+			"rotationSpeedY": 0.0,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0],
+			"timeShift": [0, 18000, 0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 255.0001, "max": 319.0}]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "skybox:overworld/clouds/sky_night_normal2_high.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 239,
+		"fade": {
+			"startFadeIn": 12500,
+			"endFadeIn": 13500,
+			"startFadeOut": 22500,
+			"endFadeOut": 23500
+			},
+		"rotation": {
+			"rotationSpeedY": -0.866,
+			"static": [0.0, -90.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200,
+		"changeFog": true,
+		"fogColors": {"red": 0.0109803921568627, "green": 0.0203921568627451, "blue": 0.0337254901960784, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear"],
+		"yRanges": [{"min": 255.0001, "max": 319.0}],
+		"biomes": ["windswept_hills", "windswept_gravelly_hills", "stony_peaks"]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

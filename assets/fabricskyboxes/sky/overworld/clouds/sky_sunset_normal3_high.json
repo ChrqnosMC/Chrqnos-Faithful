@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "skybox:overworld/clouds/sky_sunset_normal3_high.png",
+	"blend": {"type" : "screen"},
+	"properties": {
+		"priority": 228,
+		"fade": {
+			"startFadeIn": 10500,
+			"endFadeIn": 11500,
+			"startFadeOut": 12500,
+			"endFadeOut": 13500
+			},
+		"rotation": {
+			"rotationSpeedY": -0.866,
+			"static": [0.0, -90.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200,
+		"changeFog": true,
+		"fogColors": {"red": 0.392156862745098, "green": 0.4745098039215686, "blue": 0.5764705882352941, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear"],
+		"yRanges": [{"min": 255.0001, "max": 319.0}],
+		"biomes": ["swamp", "beach", "stony_shore", "warm_ocean", "lukewarm_ocean", "deep_lukewarm_ocean", "ocean", "deep_ocean", "cold_ocean", "deep_cold_ocean", "mushroom_fields", "dripstone_caves", "lush_caves", "deep_dark"]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

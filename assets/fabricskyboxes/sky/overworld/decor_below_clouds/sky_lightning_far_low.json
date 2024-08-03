@@ -1,0 +1,140 @@
+{
+	"schemaVersion": 2,
+	"type": "multi-texture",
+	"animations": [
+		{
+			"texture": "skybox:overworld/animated/lightning_far_low1.png",
+			"uvRanges": {
+				"minU": 0.0143229166,
+				"minV": 0.7177734375,
+				"maxU": 0.2421875,
+				"maxV": 0.7626953125
+			},
+			"gridColumns": 1,
+			"gridRows": 7,
+			"duration": 100,
+			"frameDuration": {"1": 100, "2": 200, "3": 100, "4": 50, "5": 50, "6": 50, "7": 6250}
+		},
+		{
+			"texture": "skybox:overworld/animated/lightning_far_low2.png",
+			"uvRanges": {
+				"minU": 0.16243489583,
+				"minV": 0.7080078125,
+				"maxU": 0.44759114583,
+				"maxV": 0.76708984375
+			},
+			"gridColumns": 1,
+			"gridRows": 7,
+			"duration": 100,
+			"frameDuration": {"1": 100, "2": 200, "3": 100, "4": 50, "5": 50, "6": 50, "7": 7500}
+		},
+		{
+			"texture": "skybox:overworld/animated/lightning_far_low3.png",
+			"uvRanges": {
+				"minU": 0.30110677083,
+				"minV": 0.716796875,
+				"maxU": 0.53352864583,
+				"maxV": 0.7646484375
+			},
+			"gridColumns": 1,
+			"gridRows": 7,
+			"duration": 100,
+			"frameDuration": {"1": 100, "2": 200, "3": 100, "4": 50, "5": 50, "6": 50, "7": 10000}
+		},
+		{
+			"texture": "skybox:overworld/animated/lightning_far_low4.png",
+			"uvRanges": {
+				"minU": 0.472330729166,
+				"minV": 0.67919921875,
+				"maxU": 0.7099609375,
+				"maxV": 0.76025390625
+			},
+			"gridColumns": 1,
+			"gridRows": 7,
+			"duration": 100,
+			"frameDuration": {"1": 100, "2": 200, "3": 100, "4": 50, "5": 50, "6": 50, "7": 12000}
+		},
+		{
+			"texture": "skybox:overworld/animated/lightning_far_low5.png",
+			"uvRanges": {
+				"minU": 0.6357421875,
+				"minV": 0.6923828125,
+				"maxU": 0.79850260416,
+				"maxV": 0.7626953125
+			},
+			"gridColumns": 1,
+			"gridRows": 7,
+			"duration": 100,
+			"frameDuration": {"1": 100, "2": 200, "3": 100, "4": 50, "5": 50, "6": 50, "7": 12850}
+		},
+		{
+			"texture": "skybox:overworld/animated/lightning_far_low6.png",
+			"uvRanges": {
+				"minU": 0.7470703125,
+				"minV": 0.71630859375,
+				"maxU": 0.99967447916,
+				"maxV": 0.7646484375
+			},
+			"gridColumns": 1,
+			"gridRows": 7,
+			"duration": 100,
+			"frameDuration": {"1": 100, "2": 200, "3": 100, "4": 50, "5": 50, "6": 50, "7": 15400}
+		},
+		{
+			"texture": "skybox:overworld/animated/lightning_far_low7.png",
+			"uvRanges": {
+				"minU": 0.69205729166,
+				"minV": 0.19482421875,
+				"maxU": 0.99967447916,
+				"maxV": 0.26513671875
+			},
+			"gridColumns": 1,
+			"gridRows": 7,
+			"duration": 100,
+			"frameDuration": {"1": 100, "2": 200, "3": 100, "4": 50, "5": 50, "6": 50, "7": 18750}
+		},
+		{
+			"texture": "skybox:overworld/animated/lightning_far_low8.png",
+			"uvRanges": {
+				"minU": 0.7841796875,
+				"minV": 0.21044921875,
+				"maxU": 0.984375,
+				"maxV": 0.2646484375
+			},
+			"gridColumns": 1,
+			"gridRows": 7,
+			"duration": 100,
+			"frameDuration": {"1": 100, "2": 200, "3": 100, "4": 50, "5": 50, "6": 50, "7": 20600}
+		}
+	],
+	"blend": {"type" : "screen"},
+	"properties": {
+		"priority": 324,
+		"fade": {
+			"startFadeIn": 12500,
+			"endFadeIn": 13500,
+			"startFadeOut": 22500,
+			"endFadeOut": 23500
+			},
+		"rotation": {
+			"rotationSpeedY": -1.732,
+			"static": [0.0, -90.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200,
+		"changeFog": false,
+		"fogColors": {"red": 0.0235294117647059, "green": 0.0274509803921569, "blue": 0.0470588235294118, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["thunder"],
+		"yRanges": [{"min": -128.0, "max": 255.0}],
+		"biomes": ["plains", "sunflower_plains", "snowy_plains", "ice_spikes", "swamp", "mangrove_swamp", "forest", "flower_forest", "birch_forest", "dark_forest", "old_growth_birch_forest", "old_growth_pine_taiga", "old_growth_spruce_taiga", "taiga", "snowy_taiga", "windswept_hills", "windswept_gravelly_hills", "windswept_forest", "jungle", "sparse_jungle", "bamboo_jungle", "meadow", "cherry_grove", "grove", "snowy_slopes", "frozen_peaks", "jagged_peaks", "stony_peaks", "river", "frozen_river", "beach", "snowy_beach", "stony_shore", "warm_ocean", "lukewarm_ocean", "deep_lukewarm_ocean", "ocean", "deep_ocean", "cold_ocean", "deep_cold_ocean", "frozen_ocean", "deep_frozen_ocean", "mushroom_fields", "dripstone_caves", "lush_caves", "deep_dark"]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

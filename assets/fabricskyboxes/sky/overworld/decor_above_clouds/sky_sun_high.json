@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 2,
+	"type": "monocolor",
+	"blend": {"type" : "add"},
+	"properties": {
+		"maxAlpha": 0.5,
+		"priority": 115,
+		"fade": {"alwaysOn": true},
+		"rotation": {
+			"rotationSpeedY": 1.0,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 255.0001, "max": 10000.0}]
+		},
+	"decorations": {
+		"blend": {"type" : "decorations"},
+		"showSun": true,
+		"showMoon": false,
+		"showStars": false,
+		"rotation": {
+			"skyboxRotation": true,
+			"rotationSpeedY": 1.0,
+			"static": [0.0, 0.0, -90.0],
+			"axis": [120.0, 0.0, 0.0]
+			}
+		}
+}

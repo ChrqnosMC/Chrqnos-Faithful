@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "skybox:overworld/clouds/sky_sunrise_rain_high.png",
+	"blend": {"type" : "screen"},
+	"properties": {
+		"priority": 266,
+		"fade": {
+			"startFadeIn": 22500,
+			"endFadeIn": 23500,
+			"startFadeOut": 500,
+			"endFadeOut": 1500
+			},
+		"rotation": {
+			"rotationSpeedY": -1.732,
+			"static": [0.0, -90.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200,
+		"changeFog": true,
+		"fogColors": {"red": 0.4274509803921569, "green": 0.5137254901960784, "blue": 0.6274509803921569, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["rain", "thunder", "snow"],
+		"yRanges": [{"min": 255.0001, "max": 319.0}],
+		"biomes": ["plains", "sunflower_plains", "snowy_plains", "ice_spikes", "swamp", "mangrove_swamp", "forest", "flower_forest", "birch_forest", "dark_forest", "old_growth_birch_forest", "old_growth_pine_taiga", "old_growth_spruce_taiga", "taiga", "snowy_taiga", "windswept_hills", "windswept_gravelly_hills", "windswept_forest", "jungle", "sparse_jungle", "bamboo_jungle", "meadow", "cherry_grove", "grove", "snowy_slopes", "frozen_peaks", "jagged_peaks", "stony_peaks", "river", "frozen_river", "beach", "snowy_beach", "stony_shore", "warm_ocean", "lukewarm_ocean", "deep_lukewarm_ocean", "ocean", "deep_ocean", "cold_ocean", "deep_cold_ocean", "frozen_ocean", "deep_frozen_ocean", "mushroom_fields", "dripstone_caves", "lush_caves", "deep_dark"]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}
