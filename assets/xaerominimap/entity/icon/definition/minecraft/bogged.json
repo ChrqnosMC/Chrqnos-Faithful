@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/skeleton/bogged.png",
+		"layersAllowed": true
+	  }
+  }
