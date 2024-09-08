@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/shulker/shulker.png",
+		"layersAllowed": true
+	  }
+  }
