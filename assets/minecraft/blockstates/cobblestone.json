@@ -2,28 +2,28 @@
   "variants": {
     "": [
       {
-        "model": "block/cobblestone/block/cobblestone"
+        "model": "minecraft:block/cobblestone"
       },
       {
-        "model": "block/cobblestone/block/cobblestone0"
+        "model": "chrqnos_faithful:block/cobblestone1"
       },
       {
-        "model": "block/cobblestone/block/cobblestone1"
+        "model": "chrqnos_faithful:block/cobblestone2"
       },
       {
-        "model": "block/cobblestone/block/cobblestone2"
+        "model": "chrqnos_faithful:block/cobblestone3"
       },
       {
-        "model": "block/cobblestone/block/cobblestone3"
+        "model": "chrqnos_faithful:block/cobblestone4"
       },
       {
-        "model": "block/cobblestone/block/cobblestone4"
+        "model": "chrqnos_faithful:block/cobblestone5"
       },
       {
-        "model": "block/cobblestone/block/cobblestone5"
+        "model": "chrqnos_faithful:block/cobblestone6"
       },
       {
-        "model": "block/cobblestone/block/cobblestone6"
+        "model": "chrqnos_faithful:block/cobblestone7"
       }
     ]
   }

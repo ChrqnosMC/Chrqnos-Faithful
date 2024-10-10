@@ -1,14 +1,30 @@
 {
     "variants": {
         "": [
-            { "model": "block/bookshelf" },
-            { "model": "block/bookshelf/0" },
-            { "model": "block/bookshelf/1" },
-            { "model": "block/bookshelf/2" },
-            { "model": "block/bookshelf/3" },
-            { "model": "block/bookshelf/4" },
-            { "model": "block/bookshelf/5" },
-            { "model": "block/bookshelf/6" }
+            {
+                "model": "minecraft:block/bookshelf"
+            },
+            {
+                "model": "chrqnos_faithful:block/bookshelf1"
+            },
+            {
+                "model": "chrqnos_faithful:block/bookshelf2"
+            },
+            {
+                "model": "chrqnos_faithful:block/bookshelf3"
+            },
+            {
+                "model": "chrqnos_faithful:block/bookshelf4"
+            },
+            {
+                "model": "chrqnos_faithful:block/bookshelf5"
+            },
+            {
+                "model": "chrqnos_faithful:block/bookshelf6"
+            },
+            {
+                "model": "chrqnos_faithful:block/bookshelf7"
+            }
         ]
     }
 }

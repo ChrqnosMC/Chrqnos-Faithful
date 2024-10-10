@@ -1,13 +1,38 @@
 {
-    "variants": {
-        "": [
-		    { "model": "block/crimson_roots/crimson_roots_0", "weight": 5 },
-			{ "model": "block/crimson_roots/crimson_roots_1", "weight": 5 },
-			{ "model": "block/crimson_roots/bloodgrass_0", "weight": 5 },
-			{ "model": "block/crimson_roots/bloodgrass_1", "weight": 5 },
-			{ "model": "block/crimson_roots/bloodgrass_2", "weight": 5 },
-			{ "model": "block/crimson_roots/bloodgrass_3", "weight": 5 },
-			{ "model": "block/crimson_roots/crimson_sprouts", "weight": 4 }
-	    ]
-    }
+	"variants": {
+		"": [
+			{
+				"model": "minecraft:block/crimson_roots",
+				"weight": 5
+			},
+			{
+				"model": "chrqnos_faithful:block/crimson_roots1",
+				"weight": 5
+			},
+			{
+				"model": "chrqnos_faithful:block/crimson_roots2",
+				"weight": 5
+			},
+			{
+				"model": "chrqnos_faithful:block/crimson_roots3",
+				"weight": 5
+			},
+			{
+				"model": "chrqnos_faithful:block/crimson_roots4",
+				"weight": 5
+			},
+			{
+				"model": "chrqnos_faithful:block/crimson_roots5",
+				"weight": 5
+			},
+			{
+				"model": "chrqnos_faithful:block/crimson_roots6",
+				"weight": 5
+			},
+			{
+				"model": "chrqnos_faithful:block/crimson_roots7",
+				"weight": 4
+			}
+		]
+	}
 }

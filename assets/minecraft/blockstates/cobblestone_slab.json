@@ -1,37 +1,82 @@
 {
   "variants": {
-
     "type=bottom": [
-      {"model": "block/cobblestone/slab/cobblestone_slab"},
-      {"model": "block/cobblestone/slab/cobblestone_slab0"},
-      {"model": "block/cobblestone/slab/cobblestone_slab1"},
-      {"model": "block/cobblestone/slab/cobblestone_slab2"},
-      {"model": "block/cobblestone/slab/cobblestone_slab3"},
-      {"model": "block/cobblestone/slab/cobblestone_slab4"},
-      {"model": "block/cobblestone/slab/cobblestone_slab5"},
-      {"model": "block/cobblestone/slab/cobblestone_slab6"}
+      {
+        "model": "minecraft:block/cobblestone_slab"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab1"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab2"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab3"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab4"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab5"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab6"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab7"
+      }
     ],
-	
     "type=top": [
-      {"model": "block/cobblestone/slab_top/cobblestone_slab_top"},
-      {"model": "block/cobblestone/slab_top/cobblestone_slab_top0"},
-      {"model": "block/cobblestone/slab_top/cobblestone_slab_top1"},
-      {"model": "block/cobblestone/slab_top/cobblestone_slab_top2"},
-      {"model": "block/cobblestone/slab_top/cobblestone_slab_top3"},
-      {"model": "block/cobblestone/slab_top/cobblestone_slab_top4"},
-      {"model": "block/cobblestone/slab_top/cobblestone_slab_top5"},
-      {"model": "block/cobblestone/slab_top/cobblestone_slab_top6"}
+      {
+        "model": "minecraft:block/cobblestone_slab_top"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab_top1"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab_top2"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab_top3"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab_top4"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab_top5"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab_top6"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone_slab_top7"
+      }
     ],
-	
     "type=double": [
-      {"model": "block/cobblestone/block/cobblestone"},
-      {"model": "block/cobblestone/block/cobblestone0"},
-      {"model": "block/cobblestone/block/cobblestone1"},
-      {"model": "block/cobblestone/block/cobblestone2"},
-      {"model": "block/cobblestone/block/cobblestone3"},
-      {"model": "block/cobblestone/block/cobblestone4"},
-      {"model": "block/cobblestone/block/cobblestone5"},
-      {"model": "block/cobblestone/block/cobblestone6"}
+      {
+        "model": "minecraft:block/cobblestone"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone1"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone2"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone3"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone4"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone5"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone6"
+      },
+      {
+        "model": "chrqnos_faithful:block/cobblestone7"
+      }
     ]
   }
 }
