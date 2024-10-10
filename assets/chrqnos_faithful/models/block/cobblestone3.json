@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "chrqnos_faithful:block/cobblestone3"
+    }
+}

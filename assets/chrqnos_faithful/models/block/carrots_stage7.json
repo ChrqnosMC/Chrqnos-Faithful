@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/crop",
+    "textures": {
+        "crop": "chrqnos_faithful:block/carrots_stage7"
+    }
+}

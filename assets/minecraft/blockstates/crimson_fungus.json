@@ -1,8 +1,14 @@
 {
     "variants": {
         "": [
-		    { "model": "block/crimson_fungus/0", "weight": 5 },
-			{ "model": "block/crimson_fungus/1", "weight": 4 }
-	    ]
+            {
+                "model": "minecraft:block/crimson_fungus",
+                "weight": 5
+            },
+            {
+                "model": "chrqnos_faithful:block/crimson_fungus1",
+                "weight": 4
+            }
+        ]
     }
 }

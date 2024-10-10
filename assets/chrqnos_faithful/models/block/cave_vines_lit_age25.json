@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "chrqnos_faithful:block/cave_vines_lit_age25"
+  }
+}

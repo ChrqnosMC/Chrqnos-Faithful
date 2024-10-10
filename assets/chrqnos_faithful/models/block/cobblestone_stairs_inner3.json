@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "top": "chrqnos_faithful:block/cobblestone3",
+        "side": "chrqnos_faithful:block/cobblestone3",
+        "bottom": "chrqnos_faithful:block/cobblestone3"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "top": "chrqnos_faithful:block/cobblestone6",
+        "side": "chrqnos_faithful:block/cobblestone6",
+        "bottom": "chrqnos_faithful:block/cobblestone6"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "chrqnos_faithful:block/crimson_roots2"
+    }
+}
