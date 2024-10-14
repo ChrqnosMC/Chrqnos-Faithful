@@ -5,10 +5,10 @@
                 "model": "minecraft:block/copper_ore"
             },
             {
-                "model": "chrqnos_faithful:copper_ore1"
+                "model": "chrqnos_faithful:block/copper_ore1"
             },
             {
-                "model": "chrqnos_faithful:copper_ore2"
+                "model": "chrqnos_faithful:block/copper_ore2"
             }
         ]
     }

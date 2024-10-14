@@ -5,10 +5,10 @@
                 "model": "minecraft:block/coal_ore"
             },
             {
-                "model": "chrqnos_faithful:coal_ore1"
+                "model": "chrqnos_faithful:block/coal_ore1"
             },
             {
-                "model": "chrqnos_faithful:coal_ore2"
+                "model": "chrqnos_faithful:block/coal_ore2"
             }
         ]
     }
